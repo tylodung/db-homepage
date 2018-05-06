@@ -1,0 +1,23 @@
+.layout {
+  width: 100%;
+  max-width: 125rem; /* 2000/16 */
+  margin: 0 auto;
+}
+
+.content {
+  padding: 3.125rem 0 0;
+  margin: 4rem 1.25rem 0 1.25rem;
+  background: #fff;
+}
+
+.dimmer {
+  opacity: 0.2;
+  filter: blur(5px);
+  min-height: 100%;
+}
+
+@media screen and (min-width: 875px) {
+  .content {
+    padding: 75px 30px 75px;
+  }
+}

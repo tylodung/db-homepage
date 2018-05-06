@@ -1,0 +1,68 @@
+.sideBar {
+  top: 85px;
+  position: fixed;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.97);
+  border: 0;
+  z-index: 2;
+}
+
+.sideBar :global .bm-item-list {
+  height: auto !important;
+}
+
+.menu {
+  margin-top: 25px;
+}
+
+.menu li {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.menu a {
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: none;
+  font-weight: 600;
+  color: #333;
+  width: 100%;
+  letter-spacing: 0.05rem;
+  white-space: nowrap;
+}
+
+.menu a:hover {
+  color: darkblue;
+}
+
+.menu a::before,
+.menu a::after {
+  display: inline-block;
+  opacity: 0;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.menu a::before {
+  margin-right: 10px;
+  content: '{';
+  transform: translateX(20px);
+  color: rebeccapurple;
+}
+
+.menu a::after {
+  color: rebeccapurple;
+  margin-left: 10px;
+  content: '}';
+  transform: translateX(-20px);
+}
+
+.menu a:hover::before,
+.menu a:hover::after,
+.menu a[aria-current^="true"]::before,
+.menu a[aria-current^="true"]::after {
+  opacity: 1;
+  transform: translateX(0);
+}

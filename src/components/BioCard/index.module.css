@@ -1,0 +1,19 @@
+.avatar {
+  width: 6.25rem; /* 100/16 */
+  height: 5.625rem; /* 90/16 */
+  margin: 0 auto;
+  margin-bottom: 1.25rem; /* 20/16 */
+}
+
+.avatar span,
+.avatar img {
+  border-radius: 50%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0.1875rem; /* 3/16 */
+  border: 0.125rem solid #f8f8f8;
+}
+
+.social {
+  text-align: center;
+}

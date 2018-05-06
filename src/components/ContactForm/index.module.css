@@ -1,0 +1,32 @@
+.form :global .form-group {
+  position: relative;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form input {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  margin: 5px 0 25px;
+}
+
+.form button {
+  float: right;
+}
+
+.form :global span.validation-error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+}
+
+.form :global span.optional {
+  color: #999;
+  font-size: 12px;
+}

@@ -1,0 +1,35 @@
+.intro {
+  border-left: 0.1875rem solid black; /* 3/16 */
+  padding-left: 1.875rem; /* 30/16 */
+  margin: 0 0 5rem; /* 80/16 */
+  line-height: 2.1875rem; /* 35/16 */
+}
+
+.intro h1 {
+  font: 1rem 'merriweatheritalic', Georgia, "Times New Roman", Times, serif;
+  display: inline;
+  font-style: italic;
+  color: #000;
+  text-align: left;
+  text-transform: none;
+  transition: font-size 0.5s ease;
+}
+
+.intro p {
+  display: inline;
+  text-align: left;
+  font: 1rem 'merriweatheritalic', Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #555;
+  transition: font-size 0.5s ease;
+}
+
+@media (min-width: 48.75rem) {
+  .intro h1 {
+    font-size: 1.45rem;
+  }
+
+  .intro p {
+    font-size: 1.45rem;
+  }
+}

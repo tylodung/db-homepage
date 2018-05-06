@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 0;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #4a90e2;
+  border-color: #4a90e2;
+  transition: 0.1s linear;
+  line-height: 1.85714286em;
+  touch-action: manipulation;
+  border: 1px solid #4a90e2;
+  margin-top: 10px;
+}
+
+.button:hover {
+  color: #fff;
+  transform: translate3d(0, -2px, 0);
+  background: #609de6;
+}

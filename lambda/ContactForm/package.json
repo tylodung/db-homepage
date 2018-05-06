@@ -1,0 +1,16 @@
+{
+  "name": "contact-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": ">=2.1.8",
+    "markup-js": "1.5.21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

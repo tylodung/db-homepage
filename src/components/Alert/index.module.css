@@ -1,0 +1,13 @@
+.root {
+  color: black;
+  padding: 10px 20px;
+  margin-bottom: 1.25rem; /* 20/16 */
+}
+
+.root.error {
+  background: #ffc6c3;
+}
+
+.root.success {
+  background: #b9ffcc;
+}

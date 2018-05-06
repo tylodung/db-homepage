@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert renders an Alert correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Alert
+    description="This is the alert body text"
+    message="Alert error title"
+    type="error"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          <FontAwesomeIcon$1
+            border={false}
+            className=""
+            compose={null}
+            fixedWidth={true}
+            flip={null}
+            icon="exclamation-circle"
+            listItem={false}
+            name=""
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            transform={null}
+          />
+           
+          Alert error title
+        </h3>,
+        <p>
+          This is the alert body text
+        </p>,
+      ],
+      "className": "root error",
+      "role": "alert",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <FontAwesomeIcon$1
+              border={false}
+              className=""
+              compose={null}
+              fixedWidth={true}
+              flip={null}
+              icon="exclamation-circle"
+              listItem={false}
+              name=""
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              symbol={false}
+              transform={null}
+            />,
+            " ",
+            "Alert error title",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "border": false,
+              "className": "",
+              "compose": null,
+              "fixedWidth": true,
+              "flip": null,
+              "icon": "exclamation-circle",
+              "listItem": false,
+              "name": "",
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "symbol": false,
+              "transform": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " ",
+          "Alert error title",
+        ],
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This is the alert body text",
+        },
+        "ref": null,
+        "rendered": "This is the alert body text",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            <FontAwesomeIcon$1
+              border={false}
+              className=""
+              compose={null}
+              fixedWidth={true}
+              flip={null}
+              icon="exclamation-circle"
+              listItem={false}
+              name=""
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              symbol={false}
+              transform={null}
+            />
+             
+            Alert error title
+          </h3>,
+          <p>
+            This is the alert body text
+          </p>,
+        ],
+        "className": "root error",
+        "role": "alert",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <FontAwesomeIcon$1
+                border={false}
+                className=""
+                compose={null}
+                fixedWidth={true}
+                flip={null}
+                icon="exclamation-circle"
+                listItem={false}
+                name=""
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                transform={null}
+              />,
+              " ",
+              "Alert error title",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "border": false,
+                "className": "",
+                "compose": null,
+                "fixedWidth": true,
+                "flip": null,
+                "icon": "exclamation-circle",
+                "listItem": false,
+                "name": "",
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "symbol": false,
+                "transform": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            " ",
+            "Alert error title",
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This is the alert body text",
+          },
+          "ref": null,
+          "rendered": "This is the alert body text",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

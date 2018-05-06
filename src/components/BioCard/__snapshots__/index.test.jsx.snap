@@ -1,0 +1,2373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert renders a BioCard correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BioCard
+    avatar={
+      Object {
+        "height": 100,
+        "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+        "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+        "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+        "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+        "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+        "width": 100,
+      }
+    }
+    col1="Alert error title"
+    col2="This is the alert body text"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <Row>
+        <Col
+          md={12}
+          xl={2}
+          xlOffset={1}
+          xs={12}
+        >
+          <div
+            className="avatar"
+          >
+            <Image
+              alt="David Brookes"
+              fadeIn={true}
+              resolutions={
+                Object {
+                  "height": 100,
+                  "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                  "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                  "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                  "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                  "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+                  "width": 100,
+                }
+              }
+            />
+          </div>
+          <p
+            className="social"
+          >
+            <a
+              aria-label="David Brookes on GitHub"
+              href="https://github.com/dbrookes"
+              rel="noopener noreferrer"
+              style={
+                Object {
+                  "color": "#000",
+                }
+              }
+              target="_blank"
+            >
+              <FontAwesomeIcon$1
+                border={false}
+                className=""
+                compose={null}
+                fixedWidth={true}
+                flip={null}
+                icon={
+                  Array [
+                    "fab",
+                    "github",
+                  ]
+                }
+                listItem={false}
+                name=""
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size="lg"
+                spin={false}
+                symbol={false}
+                transform={null}
+              />
+            </a>
+            <a
+              aria-label="David Brookes on LinkedIn"
+              href="https://linkedin.com/in/dbrookes"
+              rel="noopener noreferrer"
+              style={
+                Object {
+                  "color": "#000",
+                }
+              }
+              target="_blank"
+            >
+              <FontAwesomeIcon$1
+                border={false}
+                className=""
+                compose={null}
+                fixedWidth={true}
+                flip={null}
+                icon={
+                  Array [
+                    "fab",
+                    "linkedin",
+                  ]
+                }
+                listItem={false}
+                name=""
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size="lg"
+                spin={false}
+                symbol={false}
+                transform={null}
+              />
+            </a>
+            <a
+              aria-label="David Brookes on AngelList"
+              href="https://angel.co/dbrookes"
+              rel="noopener noreferrer"
+              style={
+                Object {
+                  "color": "#000",
+                }
+              }
+              target="_blank"
+            >
+              <FontAwesomeIcon$1
+                border={false}
+                className=""
+                compose={null}
+                fixedWidth={true}
+                flip={null}
+                icon={
+                  Array [
+                    "fab",
+                    "angellist",
+                  ]
+                }
+                listItem={false}
+                name=""
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size="lg"
+                spin={false}
+                symbol={false}
+                transform={null}
+              />
+            </a>
+            <a
+              aria-label="David Brookes on Twitter"
+              href="https://twitter.com/_dbrookes"
+              rel="noopener noreferrer"
+              style={
+                Object {
+                  "color": "#000",
+                }
+              }
+              target="_blank"
+            >
+              <FontAwesomeIcon$1
+                border={false}
+                className=""
+                compose={null}
+                fixedWidth={true}
+                flip={null}
+                icon={
+                  Array [
+                    "fab",
+                    "twitter",
+                  ]
+                }
+                listItem={false}
+                name=""
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size="lg"
+                spin={false}
+                symbol={false}
+                transform={null}
+              />
+            </a>
+          </p>
+        </Col>
+        <Col
+          md={6}
+          xl={3}
+          xs={12}
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "Alert error title",
+              }
+            }
+            style={
+              Object {
+                "textAlign": "justify",
+              }
+            }
+          />
+        </Col>
+        <Col
+          md={6}
+          xl={3}
+          xs={12}
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "This is the alert body text",
+              }
+            }
+            style={
+              Object {
+                "textAlign": "justify",
+              }
+            }
+          />
+        </Col>
+      </Row>,
+      "fluid": true,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Col
+            md={12}
+            xl={2}
+            xlOffset={1}
+            xs={12}
+          >
+            <div
+              className="avatar"
+            >
+              <Image
+                alt="David Brookes"
+                fadeIn={true}
+                resolutions={
+                  Object {
+                    "height": 100,
+                    "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                    "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                    "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                    "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                    "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+                    "width": 100,
+                  }
+                }
+              />
+            </div>
+            <p
+              className="social"
+            >
+              <a
+                aria-label="David Brookes on GitHub"
+                href="https://github.com/dbrookes"
+                rel="noopener noreferrer"
+                style={
+                  Object {
+                    "color": "#000",
+                  }
+                }
+                target="_blank"
+              >
+                <FontAwesomeIcon$1
+                  border={false}
+                  className=""
+                  compose={null}
+                  fixedWidth={true}
+                  flip={null}
+                  icon={
+                    Array [
+                      "fab",
+                      "github",
+                    ]
+                  }
+                  listItem={false}
+                  name=""
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size="lg"
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+                />
+              </a>
+              <a
+                aria-label="David Brookes on LinkedIn"
+                href="https://linkedin.com/in/dbrookes"
+                rel="noopener noreferrer"
+                style={
+                  Object {
+                    "color": "#000",
+                  }
+                }
+                target="_blank"
+              >
+                <FontAwesomeIcon$1
+                  border={false}
+                  className=""
+                  compose={null}
+                  fixedWidth={true}
+                  flip={null}
+                  icon={
+                    Array [
+                      "fab",
+                      "linkedin",
+                    ]
+                  }
+                  listItem={false}
+                  name=""
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size="lg"
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+                />
+              </a>
+              <a
+                aria-label="David Brookes on AngelList"
+                href="https://angel.co/dbrookes"
+                rel="noopener noreferrer"
+                style={
+                  Object {
+                    "color": "#000",
+                  }
+                }
+                target="_blank"
+              >
+                <FontAwesomeIcon$1
+                  border={false}
+                  className=""
+                  compose={null}
+                  fixedWidth={true}
+                  flip={null}
+                  icon={
+                    Array [
+                      "fab",
+                      "angellist",
+                    ]
+                  }
+                  listItem={false}
+                  name=""
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size="lg"
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+                />
+              </a>
+              <a
+                aria-label="David Brookes on Twitter"
+                href="https://twitter.com/_dbrookes"
+                rel="noopener noreferrer"
+                style={
+                  Object {
+                    "color": "#000",
+                  }
+                }
+                target="_blank"
+              >
+                <FontAwesomeIcon$1
+                  border={false}
+                  className=""
+                  compose={null}
+                  fixedWidth={true}
+                  flip={null}
+                  icon={
+                    Array [
+                      "fab",
+                      "twitter",
+                    ]
+                  }
+                  listItem={false}
+                  name=""
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size="lg"
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+                />
+              </a>
+            </p>
+          </Col>,
+          <Col
+            md={6}
+            xl={3}
+            xs={12}
+          >
+            <div
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "Alert error title",
+                }
+              }
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+            />
+          </Col>,
+          <Col
+            md={6}
+            xl={3}
+            xs={12}
+          >
+            <div
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "This is the alert body text",
+                }
+              }
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+            />
+          </Col>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <div
+                className="avatar"
+              >
+                <Image
+                  alt="David Brookes"
+                  fadeIn={true}
+                  resolutions={
+                    Object {
+                      "height": 100,
+                      "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                      "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                      "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                      "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                      "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+                      "width": 100,
+                    }
+                  }
+                />
+              </div>,
+              <p
+                className="social"
+              >
+                <a
+                  aria-label="David Brookes on GitHub"
+                  href="https://github.com/dbrookes"
+                  rel="noopener noreferrer"
+                  style={
+                    Object {
+                      "color": "#000",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <FontAwesomeIcon$1
+                    border={false}
+                    className=""
+                    compose={null}
+                    fixedWidth={true}
+                    flip={null}
+                    icon={
+                      Array [
+                        "fab",
+                        "github",
+                      ]
+                    }
+                    listItem={false}
+                    name=""
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size="lg"
+                    spin={false}
+                    symbol={false}
+                    transform={null}
+                  />
+                </a>
+                <a
+                  aria-label="David Brookes on LinkedIn"
+                  href="https://linkedin.com/in/dbrookes"
+                  rel="noopener noreferrer"
+                  style={
+                    Object {
+                      "color": "#000",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <FontAwesomeIcon$1
+                    border={false}
+                    className=""
+                    compose={null}
+                    fixedWidth={true}
+                    flip={null}
+                    icon={
+                      Array [
+                        "fab",
+                        "linkedin",
+                      ]
+                    }
+                    listItem={false}
+                    name=""
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size="lg"
+                    spin={false}
+                    symbol={false}
+                    transform={null}
+                  />
+                </a>
+                <a
+                  aria-label="David Brookes on AngelList"
+                  href="https://angel.co/dbrookes"
+                  rel="noopener noreferrer"
+                  style={
+                    Object {
+                      "color": "#000",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <FontAwesomeIcon$1
+                    border={false}
+                    className=""
+                    compose={null}
+                    fixedWidth={true}
+                    flip={null}
+                    icon={
+                      Array [
+                        "fab",
+                        "angellist",
+                      ]
+                    }
+                    listItem={false}
+                    name=""
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size="lg"
+                    spin={false}
+                    symbol={false}
+                    transform={null}
+                  />
+                </a>
+                <a
+                  aria-label="David Brookes on Twitter"
+                  href="https://twitter.com/_dbrookes"
+                  rel="noopener noreferrer"
+                  style={
+                    Object {
+                      "color": "#000",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <FontAwesomeIcon$1
+                    border={false}
+                    className=""
+                    compose={null}
+                    fixedWidth={true}
+                    flip={null}
+                    icon={
+                      Array [
+                        "fab",
+                        "twitter",
+                      ]
+                    }
+                    listItem={false}
+                    name=""
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size="lg"
+                    spin={false}
+                    symbol={false}
+                    transform={null}
+                  />
+                </a>
+              </p>,
+            ],
+            "md": 12,
+            "xl": 2,
+            "xlOffset": 1,
+            "xs": 12,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Image
+                  alt="David Brookes"
+                  fadeIn={true}
+                  resolutions={
+                    Object {
+                      "height": 100,
+                      "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                      "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                      "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                      "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                      "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+                      "width": 100,
+                    }
+                  }
+                />,
+                "className": "avatar",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alt": "David Brookes",
+                  "fadeIn": true,
+                  "resolutions": Object {
+                    "height": 100,
+                    "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                    "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                    "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                    "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                    "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+                    "width": 100,
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <a
+                    aria-label="David Brookes on GitHub"
+                    href="https://github.com/dbrookes"
+                    rel="noopener noreferrer"
+                    style={
+                      Object {
+                        "color": "#000",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "github",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />
+                  </a>,
+                  <a
+                    aria-label="David Brookes on LinkedIn"
+                    href="https://linkedin.com/in/dbrookes"
+                    rel="noopener noreferrer"
+                    style={
+                      Object {
+                        "color": "#000",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "linkedin",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />
+                  </a>,
+                  <a
+                    aria-label="David Brookes on AngelList"
+                    href="https://angel.co/dbrookes"
+                    rel="noopener noreferrer"
+                    style={
+                      Object {
+                        "color": "#000",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "angellist",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />
+                  </a>,
+                  <a
+                    aria-label="David Brookes on Twitter"
+                    href="https://twitter.com/_dbrookes"
+                    rel="noopener noreferrer"
+                    style={
+                      Object {
+                        "color": "#000",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "twitter",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />
+                  </a>,
+                ],
+                "className": "social",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-label": "David Brookes on GitHub",
+                    "children": <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "github",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />,
+                    "href": "https://github.com/dbrookes",
+                    "rel": "noopener noreferrer",
+                    "style": Object {
+                      "color": "#000",
+                    },
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "border": false,
+                      "className": "",
+                      "compose": null,
+                      "fixedWidth": true,
+                      "flip": null,
+                      "icon": Array [
+                        "fab",
+                        "github",
+                      ],
+                      "listItem": false,
+                      "name": "",
+                      "pull": null,
+                      "pulse": false,
+                      "rotation": null,
+                      "size": "lg",
+                      "spin": false,
+                      "symbol": false,
+                      "transform": null,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-label": "David Brookes on LinkedIn",
+                    "children": <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "linkedin",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />,
+                    "href": "https://linkedin.com/in/dbrookes",
+                    "rel": "noopener noreferrer",
+                    "style": Object {
+                      "color": "#000",
+                    },
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "border": false,
+                      "className": "",
+                      "compose": null,
+                      "fixedWidth": true,
+                      "flip": null,
+                      "icon": Array [
+                        "fab",
+                        "linkedin",
+                      ],
+                      "listItem": false,
+                      "name": "",
+                      "pull": null,
+                      "pulse": false,
+                      "rotation": null,
+                      "size": "lg",
+                      "spin": false,
+                      "symbol": false,
+                      "transform": null,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-label": "David Brookes on AngelList",
+                    "children": <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "angellist",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />,
+                    "href": "https://angel.co/dbrookes",
+                    "rel": "noopener noreferrer",
+                    "style": Object {
+                      "color": "#000",
+                    },
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "border": false,
+                      "className": "",
+                      "compose": null,
+                      "fixedWidth": true,
+                      "flip": null,
+                      "icon": Array [
+                        "fab",
+                        "angellist",
+                      ],
+                      "listItem": false,
+                      "name": "",
+                      "pull": null,
+                      "pulse": false,
+                      "rotation": null,
+                      "size": "lg",
+                      "spin": false,
+                      "symbol": false,
+                      "transform": null,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-label": "David Brookes on Twitter",
+                    "children": <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "twitter",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />,
+                    "href": "https://twitter.com/_dbrookes",
+                    "rel": "noopener noreferrer",
+                    "style": Object {
+                      "color": "#000",
+                    },
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "border": false,
+                      "className": "",
+                      "compose": null,
+                      "fixedWidth": true,
+                      "flip": null,
+                      "icon": Array [
+                        "fab",
+                        "twitter",
+                      ],
+                      "listItem": false,
+                      "name": "",
+                      "pull": null,
+                      "pulse": false,
+                      "rotation": null,
+                      "size": "lg",
+                      "spin": false,
+                      "symbol": false,
+                      "transform": null,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "p",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <div
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "Alert error title",
+                }
+              }
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+            />,
+            "md": 6,
+            "xl": 3,
+            "xs": 12,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "dangerouslySetInnerHTML": Object {
+                "__html": "Alert error title",
+              },
+              "style": Object {
+                "textAlign": "justify",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <div
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "This is the alert body text",
+                }
+              }
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+            />,
+            "md": 6,
+            "xl": 3,
+            "xs": 12,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "dangerouslySetInnerHTML": Object {
+                "__html": "This is the alert body text",
+              },
+              "style": Object {
+                "textAlign": "justify",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Row>
+          <Col
+            md={12}
+            xl={2}
+            xlOffset={1}
+            xs={12}
+          >
+            <div
+              className="avatar"
+            >
+              <Image
+                alt="David Brookes"
+                fadeIn={true}
+                resolutions={
+                  Object {
+                    "height": 100,
+                    "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                    "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                    "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                    "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                    "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+                    "width": 100,
+                  }
+                }
+              />
+            </div>
+            <p
+              className="social"
+            >
+              <a
+                aria-label="David Brookes on GitHub"
+                href="https://github.com/dbrookes"
+                rel="noopener noreferrer"
+                style={
+                  Object {
+                    "color": "#000",
+                  }
+                }
+                target="_blank"
+              >
+                <FontAwesomeIcon$1
+                  border={false}
+                  className=""
+                  compose={null}
+                  fixedWidth={true}
+                  flip={null}
+                  icon={
+                    Array [
+                      "fab",
+                      "github",
+                    ]
+                  }
+                  listItem={false}
+                  name=""
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size="lg"
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+                />
+              </a>
+              <a
+                aria-label="David Brookes on LinkedIn"
+                href="https://linkedin.com/in/dbrookes"
+                rel="noopener noreferrer"
+                style={
+                  Object {
+                    "color": "#000",
+                  }
+                }
+                target="_blank"
+              >
+                <FontAwesomeIcon$1
+                  border={false}
+                  className=""
+                  compose={null}
+                  fixedWidth={true}
+                  flip={null}
+                  icon={
+                    Array [
+                      "fab",
+                      "linkedin",
+                    ]
+                  }
+                  listItem={false}
+                  name=""
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size="lg"
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+                />
+              </a>
+              <a
+                aria-label="David Brookes on AngelList"
+                href="https://angel.co/dbrookes"
+                rel="noopener noreferrer"
+                style={
+                  Object {
+                    "color": "#000",
+                  }
+                }
+                target="_blank"
+              >
+                <FontAwesomeIcon$1
+                  border={false}
+                  className=""
+                  compose={null}
+                  fixedWidth={true}
+                  flip={null}
+                  icon={
+                    Array [
+                      "fab",
+                      "angellist",
+                    ]
+                  }
+                  listItem={false}
+                  name=""
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size="lg"
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+                />
+              </a>
+              <a
+                aria-label="David Brookes on Twitter"
+                href="https://twitter.com/_dbrookes"
+                rel="noopener noreferrer"
+                style={
+                  Object {
+                    "color": "#000",
+                  }
+                }
+                target="_blank"
+              >
+                <FontAwesomeIcon$1
+                  border={false}
+                  className=""
+                  compose={null}
+                  fixedWidth={true}
+                  flip={null}
+                  icon={
+                    Array [
+                      "fab",
+                      "twitter",
+                    ]
+                  }
+                  listItem={false}
+                  name=""
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size="lg"
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+                />
+              </a>
+            </p>
+          </Col>
+          <Col
+            md={6}
+            xl={3}
+            xs={12}
+          >
+            <div
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "Alert error title",
+                }
+              }
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+            />
+          </Col>
+          <Col
+            md={6}
+            xl={3}
+            xs={12}
+          >
+            <div
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "This is the alert body text",
+                }
+              }
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+            />
+          </Col>
+        </Row>,
+        "fluid": true,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Col
+              md={12}
+              xl={2}
+              xlOffset={1}
+              xs={12}
+            >
+              <div
+                className="avatar"
+              >
+                <Image
+                  alt="David Brookes"
+                  fadeIn={true}
+                  resolutions={
+                    Object {
+                      "height": 100,
+                      "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                      "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                      "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                      "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                      "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+                      "width": 100,
+                    }
+                  }
+                />
+              </div>
+              <p
+                className="social"
+              >
+                <a
+                  aria-label="David Brookes on GitHub"
+                  href="https://github.com/dbrookes"
+                  rel="noopener noreferrer"
+                  style={
+                    Object {
+                      "color": "#000",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <FontAwesomeIcon$1
+                    border={false}
+                    className=""
+                    compose={null}
+                    fixedWidth={true}
+                    flip={null}
+                    icon={
+                      Array [
+                        "fab",
+                        "github",
+                      ]
+                    }
+                    listItem={false}
+                    name=""
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size="lg"
+                    spin={false}
+                    symbol={false}
+                    transform={null}
+                  />
+                </a>
+                <a
+                  aria-label="David Brookes on LinkedIn"
+                  href="https://linkedin.com/in/dbrookes"
+                  rel="noopener noreferrer"
+                  style={
+                    Object {
+                      "color": "#000",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <FontAwesomeIcon$1
+                    border={false}
+                    className=""
+                    compose={null}
+                    fixedWidth={true}
+                    flip={null}
+                    icon={
+                      Array [
+                        "fab",
+                        "linkedin",
+                      ]
+                    }
+                    listItem={false}
+                    name=""
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size="lg"
+                    spin={false}
+                    symbol={false}
+                    transform={null}
+                  />
+                </a>
+                <a
+                  aria-label="David Brookes on AngelList"
+                  href="https://angel.co/dbrookes"
+                  rel="noopener noreferrer"
+                  style={
+                    Object {
+                      "color": "#000",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <FontAwesomeIcon$1
+                    border={false}
+                    className=""
+                    compose={null}
+                    fixedWidth={true}
+                    flip={null}
+                    icon={
+                      Array [
+                        "fab",
+                        "angellist",
+                      ]
+                    }
+                    listItem={false}
+                    name=""
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size="lg"
+                    spin={false}
+                    symbol={false}
+                    transform={null}
+                  />
+                </a>
+                <a
+                  aria-label="David Brookes on Twitter"
+                  href="https://twitter.com/_dbrookes"
+                  rel="noopener noreferrer"
+                  style={
+                    Object {
+                      "color": "#000",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <FontAwesomeIcon$1
+                    border={false}
+                    className=""
+                    compose={null}
+                    fixedWidth={true}
+                    flip={null}
+                    icon={
+                      Array [
+                        "fab",
+                        "twitter",
+                      ]
+                    }
+                    listItem={false}
+                    name=""
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size="lg"
+                    spin={false}
+                    symbol={false}
+                    transform={null}
+                  />
+                </a>
+              </p>
+            </Col>,
+            <Col
+              md={6}
+              xl={3}
+              xs={12}
+            >
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Alert error title",
+                  }
+                }
+                style={
+                  Object {
+                    "textAlign": "justify",
+                  }
+                }
+              />
+            </Col>,
+            <Col
+              md={6}
+              xl={3}
+              xs={12}
+            >
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "This is the alert body text",
+                  }
+                }
+                style={
+                  Object {
+                    "textAlign": "justify",
+                  }
+                }
+              />
+            </Col>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="avatar"
+                >
+                  <Image
+                    alt="David Brookes"
+                    fadeIn={true}
+                    resolutions={
+                      Object {
+                        "height": 100,
+                        "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                        "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                        "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                        "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                        "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+                        "width": 100,
+                      }
+                    }
+                  />
+                </div>,
+                <p
+                  className="social"
+                >
+                  <a
+                    aria-label="David Brookes on GitHub"
+                    href="https://github.com/dbrookes"
+                    rel="noopener noreferrer"
+                    style={
+                      Object {
+                        "color": "#000",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "github",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />
+                  </a>
+                  <a
+                    aria-label="David Brookes on LinkedIn"
+                    href="https://linkedin.com/in/dbrookes"
+                    rel="noopener noreferrer"
+                    style={
+                      Object {
+                        "color": "#000",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "linkedin",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />
+                  </a>
+                  <a
+                    aria-label="David Brookes on AngelList"
+                    href="https://angel.co/dbrookes"
+                    rel="noopener noreferrer"
+                    style={
+                      Object {
+                        "color": "#000",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "angellist",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />
+                  </a>
+                  <a
+                    aria-label="David Brookes on Twitter"
+                    href="https://twitter.com/_dbrookes"
+                    rel="noopener noreferrer"
+                    style={
+                      Object {
+                        "color": "#000",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon$1
+                      border={false}
+                      className=""
+                      compose={null}
+                      fixedWidth={true}
+                      flip={null}
+                      icon={
+                        Array [
+                          "fab",
+                          "twitter",
+                        ]
+                      }
+                      listItem={false}
+                      name=""
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size="lg"
+                      spin={false}
+                      symbol={false}
+                      transform={null}
+                    />
+                  </a>
+                </p>,
+              ],
+              "md": 12,
+              "xl": 2,
+              "xlOffset": 1,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Image
+                    alt="David Brookes"
+                    fadeIn={true}
+                    resolutions={
+                      Object {
+                        "height": 100,
+                        "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                        "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                        "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                        "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                        "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+                        "width": 100,
+                      }
+                    }
+                  />,
+                  "className": "avatar",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "David Brookes",
+                    "fadeIn": true,
+                    "resolutions": Object {
+                      "height": 100,
+                      "src": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                      "srcSet": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                      "srcSetWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp 1x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-961e0.webp 1.5x,
+/static/avatar-326107becdd7a2a7136fedd0fcd23031-56410.webp 2x",
+                      "srcWebp": "/static/avatar-326107becdd7a2a7136fedd0fcd23031-fe715.webp",
+                      "tracedSVG": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M.4 4.8c.7 5.3.7 4.6 0 16.4-.5 8-.4 8.7 1.1 8.2 1.6-.6 1.6-.5.1 2.4-1.7 3.4-2.1 7.8-.7 8.6 1.6 1 4.3-2 4.6-5.2 0-1.8.5-3.5.9-3.9 1-1 .7-2.5-.3-1.9-1.7 1.1-2.9-2-2.8-7.7 0-4 .4-6 1.3-6.4 1.1-.4 1.1-1 0-3.9C3.1 8.2 3.1 8 5.1 8 6.9 8 7 7.8 6 6.5c-.9-1-.9-1.5-.1-1.5.6 0 1.1.5 1.1 1.1 0 .8.5.8 1.5-.1s1.5-.9 1.5-.1c0 .6.8 1 1.8 1 1.5 0 1.5 0 .2-1s-1.3-1 0-.6c.8.2 2-.3 2.7-1.2 1-1.4",
+                      "width": 100,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <a
+                      aria-label="David Brookes on GitHub"
+                      href="https://github.com/dbrookes"
+                      rel="noopener noreferrer"
+                      style={
+                        Object {
+                          "color": "#000",
+                        }
+                      }
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon$1
+                        border={false}
+                        className=""
+                        compose={null}
+                        fixedWidth={true}
+                        flip={null}
+                        icon={
+                          Array [
+                            "fab",
+                            "github",
+                          ]
+                        }
+                        listItem={false}
+                        name=""
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size="lg"
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                      />
+                    </a>,
+                    <a
+                      aria-label="David Brookes on LinkedIn"
+                      href="https://linkedin.com/in/dbrookes"
+                      rel="noopener noreferrer"
+                      style={
+                        Object {
+                          "color": "#000",
+                        }
+                      }
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon$1
+                        border={false}
+                        className=""
+                        compose={null}
+                        fixedWidth={true}
+                        flip={null}
+                        icon={
+                          Array [
+                            "fab",
+                            "linkedin",
+                          ]
+                        }
+                        listItem={false}
+                        name=""
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size="lg"
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                      />
+                    </a>,
+                    <a
+                      aria-label="David Brookes on AngelList"
+                      href="https://angel.co/dbrookes"
+                      rel="noopener noreferrer"
+                      style={
+                        Object {
+                          "color": "#000",
+                        }
+                      }
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon$1
+                        border={false}
+                        className=""
+                        compose={null}
+                        fixedWidth={true}
+                        flip={null}
+                        icon={
+                          Array [
+                            "fab",
+                            "angellist",
+                          ]
+                        }
+                        listItem={false}
+                        name=""
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size="lg"
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                      />
+                    </a>,
+                    <a
+                      aria-label="David Brookes on Twitter"
+                      href="https://twitter.com/_dbrookes"
+                      rel="noopener noreferrer"
+                      style={
+                        Object {
+                          "color": "#000",
+                        }
+                      }
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon$1
+                        border={false}
+                        className=""
+                        compose={null}
+                        fixedWidth={true}
+                        flip={null}
+                        icon={
+                          Array [
+                            "fab",
+                            "twitter",
+                          ]
+                        }
+                        listItem={false}
+                        name=""
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size="lg"
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                      />
+                    </a>,
+                  ],
+                  "className": "social",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-label": "David Brookes on GitHub",
+                      "children": <FontAwesomeIcon$1
+                        border={false}
+                        className=""
+                        compose={null}
+                        fixedWidth={true}
+                        flip={null}
+                        icon={
+                          Array [
+                            "fab",
+                            "github",
+                          ]
+                        }
+                        listItem={false}
+                        name=""
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size="lg"
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                      />,
+                      "href": "https://github.com/dbrookes",
+                      "rel": "noopener noreferrer",
+                      "style": Object {
+                        "color": "#000",
+                      },
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "border": false,
+                        "className": "",
+                        "compose": null,
+                        "fixedWidth": true,
+                        "flip": null,
+                        "icon": Array [
+                          "fab",
+                          "github",
+                        ],
+                        "listItem": false,
+                        "name": "",
+                        "pull": null,
+                        "pulse": false,
+                        "rotation": null,
+                        "size": "lg",
+                        "spin": false,
+                        "symbol": false,
+                        "transform": null,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-label": "David Brookes on LinkedIn",
+                      "children": <FontAwesomeIcon$1
+                        border={false}
+                        className=""
+                        compose={null}
+                        fixedWidth={true}
+                        flip={null}
+                        icon={
+                          Array [
+                            "fab",
+                            "linkedin",
+                          ]
+                        }
+                        listItem={false}
+                        name=""
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size="lg"
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                      />,
+                      "href": "https://linkedin.com/in/dbrookes",
+                      "rel": "noopener noreferrer",
+                      "style": Object {
+                        "color": "#000",
+                      },
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "border": false,
+                        "className": "",
+                        "compose": null,
+                        "fixedWidth": true,
+                        "flip": null,
+                        "icon": Array [
+                          "fab",
+                          "linkedin",
+                        ],
+                        "listItem": false,
+                        "name": "",
+                        "pull": null,
+                        "pulse": false,
+                        "rotation": null,
+                        "size": "lg",
+                        "spin": false,
+                        "symbol": false,
+                        "transform": null,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-label": "David Brookes on AngelList",
+                      "children": <FontAwesomeIcon$1
+                        border={false}
+                        className=""
+                        compose={null}
+                        fixedWidth={true}
+                        flip={null}
+                        icon={
+                          Array [
+                            "fab",
+                            "angellist",
+                          ]
+                        }
+                        listItem={false}
+                        name=""
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size="lg"
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                      />,
+                      "href": "https://angel.co/dbrookes",
+                      "rel": "noopener noreferrer",
+                      "style": Object {
+                        "color": "#000",
+                      },
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "border": false,
+                        "className": "",
+                        "compose": null,
+                        "fixedWidth": true,
+                        "flip": null,
+                        "icon": Array [
+                          "fab",
+                          "angellist",
+                        ],
+                        "listItem": false,
+                        "name": "",
+                        "pull": null,
+                        "pulse": false,
+                        "rotation": null,
+                        "size": "lg",
+                        "spin": false,
+                        "symbol": false,
+                        "transform": null,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-label": "David Brookes on Twitter",
+                      "children": <FontAwesomeIcon$1
+                        border={false}
+                        className=""
+                        compose={null}
+                        fixedWidth={true}
+                        flip={null}
+                        icon={
+                          Array [
+                            "fab",
+                            "twitter",
+                          ]
+                        }
+                        listItem={false}
+                        name=""
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size="lg"
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                      />,
+                      "href": "https://twitter.com/_dbrookes",
+                      "rel": "noopener noreferrer",
+                      "style": Object {
+                        "color": "#000",
+                      },
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "border": false,
+                        "className": "",
+                        "compose": null,
+                        "fixedWidth": true,
+                        "flip": null,
+                        "icon": Array [
+                          "fab",
+                          "twitter",
+                        ],
+                        "listItem": false,
+                        "name": "",
+                        "pull": null,
+                        "pulse": false,
+                        "rotation": null,
+                        "size": "lg",
+                        "spin": false,
+                        "symbol": false,
+                        "transform": null,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "a",
+                  },
+                ],
+                "type": "p",
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Alert error title",
+                  }
+                }
+                style={
+                  Object {
+                    "textAlign": "justify",
+                  }
+                }
+              />,
+              "md": 6,
+              "xl": 3,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "dangerouslySetInnerHTML": Object {
+                  "__html": "Alert error title",
+                },
+                "style": Object {
+                  "textAlign": "justify",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "This is the alert body text",
+                  }
+                }
+                style={
+                  Object {
+                    "textAlign": "justify",
+                  }
+                }
+              />,
+              "md": 6,
+              "xl": 3,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "dangerouslySetInnerHTML": Object {
+                  "__html": "This is the alert body text",
+                },
+                "style": Object {
+                  "textAlign": "justify",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

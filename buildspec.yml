@@ -1,0 +1,12 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+    - npm install
+  build:
+    commands:
+    - npm run build
+  post_build:
+    commands:
+    - aws s3 sync --sse AES256 public/ s3://staging.davidbrookes.co.uk/ --cache-control max-age=604800 --delete && aws configure set preview.cloudfront true && aws cloudfront create-invalidation --distribution-id EIEJGUFROLIRM --paths "/*"

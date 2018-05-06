@@ -1,0 +1,37 @@
+.root p,
+.root h2 {
+  margin-top: 0;
+}
+
+.root h2 {
+  font-size: 1.25rem; /* 20/16 */
+  font-family: 'Montserrat', sans-serif;
+  color: #2b2b2d;
+  margin-bottom: 0.625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.meta {
+  margin-top: 30px;
+}
+
+.meta dt {
+  float: left;
+  margin-right: 10%;
+  max-width: 20%;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.meta dd {
+  margin-left: 30%;
+  margin-bottom: 0.5rem;
+  word-wrap: break-word;
+}
+
+.meta dd::after {
+  content: " ";
+  display: block;
+  clear: left;
+}

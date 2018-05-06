@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+public/
+.DS_Store
+.cache/
+yarn.lock
+yarn-error.log
+.vscode/
+.idea/

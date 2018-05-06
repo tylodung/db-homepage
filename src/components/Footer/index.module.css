@@ -1,0 +1,26 @@
+.footer {
+  padding: 20px 20px 20px 20px;
+}
+
+.footer p {
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (min-width: 875px) {
+  .footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .footer p {
+    text-align: left;
+    float: left;
+  }
+
+  p.copy {
+    text-align: right;
+    float: right;
+  }
+}

@@ -1,0 +1,17 @@
+# node / yarn
+node_modules
+lambda
+*.log
+.npm
+.cache
+.yarn
+.node-gyp
+.config
+.cache
+
+# gatsby build
+public
+
+# Test utils
+coverage
+*.snap
