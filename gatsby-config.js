@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `David Brookes`,
-    siteUrl: `http://tulanhngoainhap.net/`,
+    siteUrl: `https://tamythienniem.net/`,
   },
   plugins: [
     `gatsby-plugin-react-next`,
